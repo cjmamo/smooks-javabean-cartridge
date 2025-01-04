@@ -10,7 +10,6 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>smooks-javabean-cartridge</artifactId>
-    <packaging>bundle</packaging>
 
     <build>
         <plugins>
@@ -26,13 +25,6 @@
                         <exclude>test/resources/org/smooks/cartridges/javabean/dynamic/AAA-v11.ftl</exclude>
                     </excludes>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <version>5.1.9</version>
-                <extensions>true</extensions>
-                <inherited>true</inherited>
             </plugin>
         </plugins>
     </build>
