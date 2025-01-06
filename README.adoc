@@ -3,6 +3,9 @@
 image:https://img.shields.io/maven-central/v/org.smooks.cartridges/smooks-javabean-cartridge[Maven Central]
 image:https://img.shields.io/nexus/s/org.smooks.cartridges/smooks-javabean-cartridge?server=https%3A%2F%2Foss.sonatype.org[Sonatype Nexus (Snapshots)]
 image:https://github.com/smooks/smooks-javabean-cartridge/workflows/CI/badge.svg[Build Status]
+image:https://img.shields.io/badge/group-user-red?logo=Gmail[email group,link=https://groups.google.com/g/smooks-user]
+image:https://img.shields.io/badge/group-dev-red?logo=Gmail[email group,link=https://groups.google.com/g/smooks-dev]
+image:https://img.shields.io/badge/chat-on%20gitter-46bc99.svg[Gitter chat,link=https://gitter.im/smooks/smooks]
 
 // tag::smooks-javabean-cartridge[]
 Smooks can map a Java object graph to another Java object graph. This mapping is accomplished through events, which means no intermediate object is constructed for populating the target Java object graph. In other words, the source Java object graph is turned into a stream of events that are bound to the target Java object graph.
